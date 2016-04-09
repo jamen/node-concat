@@ -5,7 +5,7 @@ A normalization between `Base.prototype.concat` and `Base.concat`.
 
 ## Installation
 ```shell
-$ npm install --save concat
+$ npm install --save jamen/concat
 ```
 
 ## Usage
