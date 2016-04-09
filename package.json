@@ -1,0 +1,25 @@
+{
+  "name": "concat",
+  "author": "Jamen Marzonie",
+  "version": "0.0.0",
+  "description": "Concatenate items.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamen/concat"
+  },
+  "scripts": {
+    "test": "eslint index.js test; tape 'test/*.js'"
+  },
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-google": "^0.4.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
